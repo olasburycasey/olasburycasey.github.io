@@ -8,6 +8,8 @@
     error { color: red; font-weight: bold; }
     table > div {float:left; width:80px;}
     .end{clear:both;}
+    body {text-align: center}
+    table {text-align: center}
 
   </style>  
 
@@ -69,14 +71,15 @@
 <body>
     <h1>A Digital Spartan Scytale</h1>
     <h2>By Owen Lasbury-Casey</h2>
-    Decrypt this message:<br>
-    EYABVITEESDARAABYGYEDRTAAEOR<br><br>
+    Decrypt this message:<br><br>
+    E Y A B V I T E E S D A R A A B Y G Y E D R T A A E O R<br><br>
   <form>
-    <input type = "text"  id = "numRows" value="0" placeholder="e.g., 6">
-      &nbsp; How many rows for the decryption? (1-9)<br>
+          How many rows for the decryption? (1-9) <br><br>
+    <input type = "text"  id = "numRows" value="" placeholder="e.g., 6"><br><br>
+      
 
     <input type = "reset"  id = "reset" >
-    <input type = "button"  id = "submit" value="submit">
+    <input type = "button"  id = "submit" value="Submit">
   </form>
   <br>
   <error id="error"></error>
